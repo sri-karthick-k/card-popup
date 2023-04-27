@@ -1,0 +1,62 @@
+
+.popup {
+  width: 400px;
+  background: #fff;
+  text-align: center;
+  padding: 0 30px 30px;
+
+
+
+
+
+  /* Important properties for popup */
+  /* { */
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+}
+
+.popup > button {
+  width: 100%;
+}
+
+.open-popup {
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* } */
+
+
+
+
+
+
+
+/* Not important */
+
+.btn {
+  padding: 10px 60px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the button, nothing much */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: turquoise;
+  }
+  
